@@ -26,7 +26,6 @@ enum Product {
   const Product(this.title, this.description, this.image);
 }
 
-
 class ProductCard extends StatelessWidget {
   final Product product;
   
